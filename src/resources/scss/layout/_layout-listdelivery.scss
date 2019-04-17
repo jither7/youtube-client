@@ -1,0 +1,35 @@
+.listdelivery{
+  table{
+    th{
+      div{
+        font-size: $txt-size-h7;
+        color: $txt-color-black;
+        font-family: $robotofont;
+        font-weight: 400;
+      }
+    }
+  }
+  &__collapse{
+    table{
+      //width: 50%;
+      th{
+        width: 10%;
+        div{
+          font-size: $txt-size-h8;
+          color: $txt-color-gray;
+          font-family: $robotofont;
+          font-weight: 600;
+        }
+        &:last-child{
+          width: auto;
+        }
+      }
+      td{
+        font-size: $txt-size-h7;
+        color: $txt-color-black;
+        font-family: $robotofont;
+        font-weight: 400;
+      }
+    }
+  }
+}

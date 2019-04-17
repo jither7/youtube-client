@@ -1,0 +1,113 @@
+.formeditaddress{
+	.ant-form-item{
+		margin-bottom: 10px;
+		textarea{
+			margin-bottom: 0;
+		}
+	}
+	.ant-form-item-control{
+		
+	}
+}
+.modalform{
+	.ant-modal-close{
+		right: 9px;
+		top: 10px;
+	}
+	.ant-modal-content{
+		padding-bottom: 15px;
+		.ant-modal-header{
+			border: 0;
+			padding-top: 30px;
+			.ant-modal-title{
+				font-size: $txt-size-h1;
+				font-weight: 400;
+				color: $txt-color-black;
+				text-transform: uppercase;
+				a{
+					text-transform: capitalize;
+				}
+			}
+		}
+		.ant-modal-body{
+			padding-top: 10px;
+			padding-bottom: 0;
+		}
+		.ant-modal-footer{
+			padding: 10px 24px;
+			border: 0;
+			.ant-btn{
+				padding: 0 25px!important;
+				height: 40px;
+				line-height: 40px;
+				font-size: $txt-size-h7;
+				font-family: $robotofont;
+				font-weight: 700;
+				color: $txt-color-gray2;
+				&:disabled{
+					color: $txt-color-gray2;
+				}
+			}
+			.ant-btn-primary{
+				color: $txt-color-white;
+			}
+		}
+		.ant-table-body{
+			border: 1px solid #E9E9E9;
+			border-bottom: 0;
+			@include border-radius(4px);
+			.ant-table-thead{
+				tr{
+					th{
+						font-size: 14px;
+						color: #9E9E9E;
+						font-family: $robotofont;
+						font-weight: 400;
+					}
+				}
+			}
+		}
+	}
+}
+.modaleditorder{
+	.ant-modal-footer{
+		text-align: left;
+		.ant-btn{
+			text-transform: uppercase;
+		}
+		.btn--blue{
+			&:hover{
+				color: $txt-color-blue;
+			}
+		}
+	}
+	.ant-input-group-addon{
+		background-color: transparent;
+		color: $txt-color-blue;
+		font-size: $txt-size-h5;
+		padding-top: 3px;
+	}
+	.ant-input{
+		border-right: 0;
+	}
+}
+
+.modalformfinance{
+	.ant-form-item{margin-bottom: 0}
+	label{
+		font-size: $txt-size-h7;
+		color: $txt-color-black;
+		font-family: $robotofont;
+		font-weight: 600;
+	}
+	.ant-modal-content{
+		.ant-modal-body{
+			padding: 24px;
+			padding-top: 0;
+		}
+		.ant-modal-footer{
+			text-align: left;
+			padding-top: 0;
+		}
+	}
+}

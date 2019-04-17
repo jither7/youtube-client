@@ -1,0 +1,305 @@
+lỗi,Key,KeyID,en,vn
+menu,orders,menu.orders,,Danh sách đơn
+menu,operate,menu.operate,,Vận hành
+menu,customer,menu.customer,,Khách hàng
+menu,complaint,menu.complaint,,Khiếu nại
+menu,finance,menu.finance,,Tài chính
+menu,system,menu.system,,Hệ thống
+menu,packages,menu.packages,,Danh sách kiện
+menu,delivery,menu.delivery,,Danh sách YCG
+message,network_error,message.network_error,Please check network connection and try again,Vui lòng kiểm tra lại kết nối mạng và thử lại
+orders,orders_empty,orders.orders_empty,,Chưa có dữ liệu
+orders,search_order_no_data,orders.search_order_no_data,,Không tìm thấy kết quả phù hợp
+orders,title_list,orders.title_list,,Danh sách đơn hàng
+orders,title_page,orders.title_page,,Quản lý đơn hàng
+orders,export_csv,orders.export_csv,,Xuất CSV
+orders,quantity_check,orders.quantity_check,,Số lượng đặt / mua / nhận
+orders,merchant,orders.merchant,Seller,Người bán
+orders,purchasing_staff,orders.purchasing_staff,,Nhân viên mua hàng
+orders,amount,orders.amount,,Giá bán
+orders,merchant,orders.merchant,,Người bán
+orders,created_at,orders.created_at,,Thời gian tạo đơn
+orders,net_weight,orders.net_weight,,Cân nặng tịnh
+orders,fee_weight,orders.fee_weight,,Cân nặng tính phí VCQT
+orders,purchasing_account,orders.purchasing_account,,Tài khoản mua hàng
+order,filter_by,order.filter_by,,Tìm theo
+order,filter_by_order_id,order.filter_by_order_id,,Mã đơn hàng/ID đơn hàng
+order,filter_origin_order_code,order.filter_origin_order_code,,Mã hóa đơn gốc
+order,filter_buyer,order.filter_buyer,,Tài khoản mua hàng
+order,filter_order_logistic,order.filter_order_logistic,,Mã vận đơn
+order,filter_customer,order.filter_customer,,Nhập thông tin khách hàng:
+order,filter_by_time,order.filter_by_time,,Thời gian:
+order,btn_filter,order.btn_filter,,Tìm kiếm
+order,service,order.service,Services,Dịch vụ:
+order_filter,status,order_filter.status,,Trạng thái đơn
+order_filter,actions,order_filter.actions,,Hành động
+order_filter,refresh,order_filter.refresh,,Làm mới bộ lọc 
+receipt_address,success,receipt_address.success,,Sửa địa chỉ nhận thành công
+order_info,order_detail,order_info.order_detail,,Chi tiết đơn hàng
+order_info,price,order_info.price,Price,Giá bán
+order_info,order_list,order_info.order_list,Orders List,Danh sách đơn hàng
+order_info,edit,order_info.edit,Edit,Sửa
+order_info,total_goods_value,order_info.total_goods_value,Total value,Tổng tiền hàng
+order_info,merchant_contacts,order_info.merchant_contacts,Merchant contacts,Liên hệ người bán
+order_info,customer_code,order_info.customer_code,Customer code,Mã khách hàng
+order_info,purchasing_account,order_info.purchasing_account,Purchasing account,Tài khoản mua hàng
+order_info,net_weight,order_info.net_weight,Net weight,Cân nặng tịnh
+order_info,destination_warehouse,order_info.destination_warehouse,Destination warehouse,Kho phân phối
+order_info,receiving_warehouse,order_info.receiving_warehouse,Receiving warehouse,Kho nhận
+order_info,purchasing_staff,order_info.purchasing_staff,Purchasing staff,Nhân viên mua hàng
+order_info,convert_weight,order_info.convert_weight,Convert weight,Cân nặng quy đổi
+order_info,emd_mount,order_info.emd_mount,Deposit Rate,Tỉ lệ đặt cọc
+order_info,cost_weight,order_info.cost_weight,Cost weight,Cân tính phí
+order_info,origin_bill,order_info.origin_bill,Origin bill,Hoá đơn gốc
+order_info,expand_content,order_info.expand_content,Expand content,Mở rộng thông tin
+order_info,shrink_content,order_info.shrink_content,Shrink content,Thu gọn thông tin
+order_info,service,order_info.service,Services,Dịch vụ
+order_info,address,order_info.address,Address,Địa chỉ nhận hàng
+order_info,customer_address_note,order_info.customer_address_note,Note,Ghi chú
+order_info,member,order_info.member,Member,Thành viên
+order_info,aliwang,order_info.aliwang,Aliwangwang account,Tài khoản aliwangwang
+order_info,merchant,order_info.merchant,Salesman,Người bán
+order_info,edit_status_success,order_info.edit_status_success,Successful edit status,Sửa trạng thái đơn hàng thành công
+order_info,edit_status_failed,order_info.edit_status_failed,Failed edit status,Sửa trạng thái đơn hàng thất bại
+order_info,add_original_receipt_success,order_info.add_original_receipt_success,,Thêm mã hóa đơn gốc thành công
+order_original_receipt,add_failed,order_original_receipt.add_failed,,Thêm mã hóa đơn gốc thất bại
+order_info,delete_original_receipt_success,order_info.delete_original_receipt_success,,Xóa mã hóa đơn gốc thành công
+order_info,delete_original_receipt_failed,order_info.delete_original_receipt_failed,,Xóa mã hóa đơn gốc thất bại
+order_info,update_success,order_info.update_success,,Cập nhật thông tin đơn thành công
+order_info,update_failed,order_info.update_failed,,Cập nhật thông tin đơn thất bại
+order_original_receipt,message.duplicate_code,order_original_receipt.message.duplicate_code,,Mã hõa đơn đã tồn tại trên đơn
+order_original_receipt,add_title,order_original_receipt.add_title,,Thêm hóa đơn
+order_original_receipt,list,order_original_receipt.list,,Danh sách hóa đơn
+order_original_receipt,update_delete_btn,order_original_receipt.update_delete_btn,,Cập nhật thay đổi
+order_original_receipt,cancel_btn,order_original_receipt.cancel_btn,,Hủy
+order_original_receipt,edit_modal_title,order_original_receipt.edit_modal_title,,Chỉnh sửa hóa đơn gốc
+order_original_receipt,no_data,order_original_receipt.no_data,,Chưa có dữ liệu
+order_detail,tab_product,order_detail.tab_product,Product,Sản phẩm
+order_detail,tab_transport,order_detail.tab_transport,Transport,Vận chuyển
+order_detail,tab_finance,order_detail.tab_finance,Finance,Phí đơn hàng
+order_detail,tab_trade,order_detail.tab_trade,Trade,Giao dịch
+order_detail,tab_history,order_detail.tab_history,Timeline,Lịch sử đơn hàng
+order_detail,service,order_detail.service,Services,Dịch vụ
+order_detail_product,title_table,order_detail_product.title_table,Product,Sản phẩm
+order_detail_product,price,order_detail_product.price,Price,Đơn giá
+order_detail_product,total,order_detail_product.total,Total amount,Tổng tiền
+order_detail_product,export_csv,order_detail_product.export_csv,Export CSV,Xuất CSV
+order_detail_product,bt_buy_enough,order_detail_product.bt_buy_enough,Buy enough,Mua đủ
+order_detail_product,bt_receive_enough,order_detail_product.bt_receive_enough,Receive enough,Nhận đủ
+order_detail_product,title_language,order_detail_product.title_language,Change language,Đổi ngôn ngữ
+order_detail_product,title_quantity,order_detail_product.title_quantity,Order/Purchase/Receive,Đặt/Mua/Nhận
+order_detail_product,title_popup_edit_price,order_detail_product.title_popup_edit_price,Change Price,Thay đổi đơn giá
+order_detail_product,title_popup_edit_quantity,order_detail_product.title_popup_edit_quantity,Change Quantity,Thay đổi số lượng
+order_detail_product,purchase_quantity,order_detail_product.purchase_quantity,Purchased quantity,Số lượng mua
+order_detail_product,receice_quantity,order_detail_product.receice_quantity,Received quantity,Số lượng nhận
+order_detail_product,chat_private,order_detail_product.chat_private,,Chat nội bộ về SP
+order_detail_product,chat_note,order_detail_product.chat_note,,Ghi chú cho SP
+order_detail_product,title_remark,order_detail_product.title_remark,Remark,Ghi chú của khách
+order_detail_product,title_staff_remark,order_detail_product.title_staff_remark,Staff Remark,Ghi chú của nhân viên
+comment_internal,tab_all,comment_internal.tab_all,All,Tất cả
+comment_internal,tab_comment,comment_internal.tab_comment,Comments,Trao đổi
+comment_internal,tab_log,comment_internal.tab_log,Log,Log
+comment_internal,title,comment_internal.title,Comment internal,Trao đổi nội bộ
+comment_internal,bt_send,comment_internal.bt_send,Send,Gửi
+status,ACCEPTED,status.ACCEPTED,,Chưa mua
+status,PENDING_PURCHASING,status.PENDING_PURCHASING,,Chưa mua
+status,DEPOSITED,status.DEPOSITED,,Đã đặt cọc
+status,WAITING_FOR_PAYMENT,status.WAITING_FOR_PAYMENT,,Chờ thanh toán
+status,WAIT_FOR_APPROVE,status.WAIT_FOR_APPROVE,,Chờ duyệt
+status,CUSTOMER_RECEIVED,status.CUSTOMER_RECEIVED,,Khách nhận
+status,PURCHASED,status.PURCHASED,,Đã mua hàng
+status,TRANSPORTING,status.TRANSPORTING,,Vận chuyển
+status,MIA,status.MIA,,Thất lạc
+status,CANCELLED,status.CANCELLED,,Hủy bỏ
+status,WAIT_FOR_DELIVERY,status.WAIT_FOR_DELIVERY,,Sẵn sàng giao
+status,OUT_OF_STOCK,status.OUT_OF_STOCK,,Hết hàng
+status,REQUEST_FOR_DELIVERY,status.REQUEST_FOR_DELIVERY,,Yêu cầu giao
+status,RECEIVED,status.RECEIVED,,Nhập hàng nhận
+status,MERCHANT_DELIVERING,status.MERCHANT_DELIVERING,,Người bán giao
+status,PURCHASING,status.PURCHASING,,Đang mua
+status,ORDERED,status.ORDERED,,Đã đặt hàng
+status,DELIVERING,status.DELIVERING,,Đang giao
+status,PENDING,status.PENDING,,Chờ xác nhận
+status,PUTAWAY,status.PUTAWAY,Put away,Kiện về kho
+status,REQUESTED,status.REQUESTED,Requested,Yêu cầu giao
+status,DELIVERED,status.DELIVERED,Delivered,Khách nhận
+status,DELIVERING,status.DELIVERING,Delivering,Đang giao
+status,MISSING,status.MISSING,Missing,Thất lạc
+status,WAITING,status.WAITING,Waiting,Chờ giao
+status,READY_FOR_DELIVERY,status.READY_FOR_DELIVERY,,Chờ giao
+message,authenticating,message.authenticating,Authenticating. Please wait a moment,Đang xác thực. Vui lòng đợi trong giây lát
+message,welcome,message.welcome,Welcome {{username}}. You will be redirect to the dashboard momentarily.,Xin chào {{username}}. Bạn sẽ được chuyển về trang chủ trong giây lát.
+message,try_again,message.try_again,Please try again,Không thể kết nối tới máy chủ. Vui lòng thử lại sau
+message,loading,message.loading,Loading,Đang tải
+message,edit_price_sucess,message.edit_price_sucess,Success,Thay đổi đơn giá thành công
+message,title_failed,message.title_failed,Failed,Thất bại
+message,edit_price_failed,message.edit_price_failed,Cannot change price,Thay đổi đơn giá thất bại
+message,no_data,message.no_data,No data,Không có dữ liệu
+message,no_order,message.no_order,No Order,Danh sách đơn hàng trống
+message,not_found_order,message.not_found_order,Not found order,Không tìm thấy đơn hàng phù hợp
+message,edit_quantity_sucess,message.edit_quantity_sucess,Success,Thay đổi số lượng Mua/Nhận của sản phẩm thành công
+message,edit_quantity_failed,message.edit_quantity_failed,Failed,Thay đổi số lượng Mua/Nhận của sản phẩm thất bại
+message,503,message.503,"Service unavailable, please try again later","Máy chủ không khả dụng, vui lòng thử lại sau ít phút"
+message,Internal Server Error,message.Internal Server Error,Please try again,Xảy ra lỗi. Vui lòng thử lại
+message,Constraint Violation,message.Constraint Violation,Invalid data,Dữ liệu không hợp lệ
+message,Bad Request,message.Bad Request,Invalid data,Dữ liệu không hợp lệ
+message,edit_staff_remark_sucess,message.edit_staff_remark_sucess,Success,Thay đổi ghi chú của nhân viên thành công
+message,duplicate_code,message.duplicate_code,,{{attribute}} đã tồn tại trên hệ thống
+message,not_found,message.not_found,,Không tìm thấy bản ghi phù hợp
+message,cannot_delete_tracking,message.cannot_delete_tracking,Can not delete because tracking number is being used in some packages,Không thể xóa mã vận đơn vì đang có kiện hàng đang sử dụng mã vận đơn này
+order_address,fullname,order_address.fullname,,Họ tên
+order_address,phone,order_address.phone,,Điện thoại
+order_address,province,order_address.province,,Thành phố
+order_address,district,order_address.district,,Quận / Huyện
+order_address,detail,order_address.detail,,Địa chỉ
+order_address,note,order_address.note,,Ghi chú
+order_address,edit_success,order_address.edit_success,,Sửa địa chỉ nhận hàng thành công
+order_address,edit_failed,order_address.edit_failed,,Sửa địa chỉ nhận hàng thất bại
+order_address,edit_title_form,order_address.edit_title_form,,Sửa địa chỉ nhận hàng
+order_address,btn_update_modal,order_address.btn_update_modal,,Sửa địa chỉ
+order_address,btn_cancel_modal,order_address.btn_cancel_modal,,Thoát
+notification,title_failed,notification.title_failed,,Thất bại
+validation,required,validation.required,The {{attribute}} field is required,{{attribute}} là bắt buộc
+validation,max,validation.max,The {{attribute}} may not be greater than {{max}}.,{{attribute}} không được lớn hơn {{max}} ký tự
+validation,min,validation.min,The {{attribute}} must be at least {{min}}.,{{attribute}} phải có ít nhất {{min}} ký tự
+validation,regex,validation.regex,The {{attribute}} format is invalid,{{attribute}} không hợp lệ
+validation,max_value,validation.max_value,The {{attribute}} may not be greater than {{max}}.,{{attribute}} không được lớn hơn {{max}}
+validation,confirm_password,validation.confirm_password,The {{attribute}} not match {{value}},{{attribute}} không khớp {{value}}
+button,save,button.save,Save,Đồng ý
+button,cancel,button.cancel,Cancel,Bỏ qua
+comment,placeholder,comment.placeholder,Comment to customer,Trao đổi với khách hàng
+comment,send,comment.send,Send,Gửi
+comment,comment_failed,comment.comment_failed,Comment failed,Trao đổi thất bại
+comment,max_size_message,comment.max_size_message,You can only upload file less 10M!,Bạn chỉ có thể gửi tệp dưới 10M
+comment,only_image,comment.only_image,You can only upload image file!,Bạn chỉ có thể gửi tệp ảnh
+comment,max,comment.max,You can just upload max 10 files,Bạn chỉ có thể gửi tối đa 10 tệp
+comment,comment_empty,comment.comment_empty,Comment empty,Chưa có trao đổi với khách hàng
+btn,try_again,btn.try_again,Try Again,Thử lại
+tab_transport,shipping_code,tab_transport.shipping_code,Shipping code,Mã vận đơn
+tab_transport,package_code,tab_transport.package_code,Code,Mã kiện
+tab_transport,order_tran_code,tab_transport.order_tran_code,Order Transport Code,Mã vận đơn
+tab_transport,status,tab_transport.status,Status,Trạng thái
+tab_transport,volume,tab_transport.volume,Volumn,Thể tích
+tab_transport,weight,tab_transport.weight,Weight,Cân nặng
+tab_transport,last_update,tab_transport.last_update,The last updated,Cập nhật lần cuối
+tab_transport,add_package,tab_transport.add_package,Add package,Thêm kiện hàng
+tab_transport,cancel_add,tab_transport.cancel_add,Cancel,Hủy
+tab_transport,create_package,tab_transport.create_package,Create,Tạo
+tab_transport,received,tab_transport.received, Received,Đã nhận
+tab_transport,require_ship,tab_transport.require_ship,Delivery requirement,Yêu cầu giao
+tab_transport,wait,tab_transport.wait,Waiting for delivery,Chờ giao
+tab_transport,shipping,tab_transport.shipping,Delivering,Đang giao
+tab_transport,transport,tab_transport.transport,Transport,Vận chuyển
+tab_transport,goods_received,tab_transport.goods_received,Received goods,Nhập hàng nhận
+tab_transport,lost,tab_transport.lost,Lost,Thất lạc
+tab_transport,new_tag,tab_transport.new_tag,New Tag,Thêm mã vận đơn
+tab_transport,create_package_failed,tab_transport.create_package_failed,Failed edit status,Tạo kiện hàng thất bại
+tab_transport,create_package_success,tab_transport.create_package_success,Successful edit status,Tạo kiện hàng thành công
+tab_transport,delete_package_success,tab_transport.delete_package_success,Successful delete package,Xoá kiện hàng thành công
+tab_transport,delete_package_failed,tab_transport.delete_package_failed,Failed delete package,Xoá kiện hàng thất bại
+tab_transport,update_package_success,tab_transport.update_package_success,Successful update package,Cập nhật thành công
+tab_transport,update_package_failed,tab_transport.update_package_failed,Failed update package,Cập nhật thất bại
+tab_transport,create_OTCode_success,tab_transport.create_OTCode_success,Successful create order transport code,Tạo mã vận đơn thành công
+tab_transport,create_OTCode_failed,tab_transport.create_OTCode_failed,Failed create order transport code,Tạo mã vận đơn thất bại
+tab_transport,delete_OTCode_success,tab_transport.delete_OTCode_success,Successful delete order transport code,Xoá mã vận đơn thành công
+tab_transport,delete_OTCode_failed,tab_transport.delete_OTCode_failed,Failed delete order transport code,Xoá mã vận đơn thất bại
+tab_transport,create_duplicated_OTCode_failed,tab_transport.create_duplicated_OTCode_failed,The order transport code is duplicated,Mã vận đơn đã tồn tại
+tab_transport,select_tracking,tab_transport.select_tracking,Select tracking,Chọn mã
+tab_transport,confirm_delete_package,tab_transport.confirm_delete_package,Confirm delete package,Xác nhận xoá kiện hàng
+tab_transport,confirm_delete_tracking,tab_transport.confirm_delete_tracking,Confirm delete tracking,Xác nhận xoá mã vận đơn
+tab_transport,ques_package,tab_transport.ques_package,Are you sure delete {{name}} package?,Bạn có chắc chắn xoá kiện hàng {{name}} ?
+tab_transport,ques_tracking,tab_transport.ques_tracking,Are you sure delete {{name}} tracking?,Bạn có chắc chắn xoá mã vận đơn {{name}} ?
+fee,edit_fee,fee.edit_fee,,Sửa
+fee,fee_empty,fee.fee_empty,,Chưa có bảng phí 
+fee,add_other_fee,fee.add_other_fee,,Thêm phụ phí
+fee,free,fee.free,Free,Miễn phí
+fee,formula_amount,fee.formula_amount,,Tiền công thức
+fee,fee_name,fee.fee_name,,Tên loại phí
+fee,other_fee,fee.other_fee,,Phí khác
+fee,handle_amount,fee.handle_amount,,Tiền tính tay
+fee,service_fee,fee.service_fee,Service Fee,Phí dịch vụ
+fee,delivery_fee,fee.delivery_fee,Delivery Fee,Phí vận chuyển
+fee,payment_fee,fee.payment_fee,Payment Fee,Thanh toán
+fee,change_fee_title,fee.change_fee_title,Change {{name}},Thay đổi {{name}}
+fee,reason_change,fee.reason_change,Reason change,Lí do thay đổi phí
+fee,deposit,fee.deposit,Deposit,Đặt cọc
+fee,total,fee.total,Total,Tổng thanh toán
+fee,refund,fee.refund,Refund,Trả lại
+fee,refund_complaint,fee.refund_complaint,Refund from Complaint,Trả lại từ KNDV
+fee,arrears,fee.arrears,Arrears,Còn thiếu
+fee,edit_success,fee.edit_success,Success,Thay đổi phí thành công
+fee,edit_failed,fee.edit_failed,Failed,Thay đổi phí thất bại
+fee,missing_reason,fee.missing_reason,Mission reason,Lý do bắt buộc khi thay đổi phí
+fee,add_title,fee.add_title,,Thêm phí mới
+fee,choice_fee,fee.choice_fee,,Chọn loại phí
+fee,reason_fee,fee.reason_fee,,Lý do
+fee,btn_add,fee.btn_add,,Thêm phí mới
+fee,btn_cancel,fee.btn_cancel,,Hủy
+fee,money,fee.money,,Nhập số tiền
+order_service,title_popup,order_service.title_popup,Select service,Lựa chọn dịch vụ
+order_service,bt_cancel,order_service.bt_cancel,Cancel,Hủy
+order_service,bt_submit,order_service.bt_submit,Submit,Xác nhận
+order_service,msg_edit_fail,order_service.msg_edit_fail,Failed,Vui lòng thử lại
+order_service,msg_edit_success,order_service.msg_edit_success,Success,Sửa dịch vụ thành công
+comment,comment_failed,comment.comment_failed,Failed,Trao đổi thất bại
+trade,transaction-title,trade.transaction-title,Transaction history,Lịch sử giao dịch
+trade,time,trade.time,Time,Thời gian
+trade,amount,trade.amount,Amount,Giá trị
+trade,type,trade.type,Type,Loại giao dịch
+trade,description,trade.description,Description,Mô tả
+trade,transaction_empty,trade.transaction_empty,Transactions empty,Lịch sử giao dịch trống
+package,packages_header,package.packages_header,Packages List,Danh sách kiện hàng
+package,packages_title,package.packages_title,Packages List,Kiện hàng
+package,code,package.code,Code,Mã Kiện
+package,tracking_number,package.tracking_number,Tracking number,Mã vận đơn
+package,status,package.status,Status,Trạng thái
+package,order_code,package.order_code,Order code,Mã đơn hàng
+package,volumetric,package.volumetric,Volume,Thể tích
+package,no_identify,package.no_identify,No identify,Chưa xác định
+package,customer,package.customer,Customer,Thông tin khách hàng
+package,weight,package.weight,Weight,Cân nặng
+package,package_status,package.package_status,,Trạng thái kiện hàng
+package,create_pack,package.create_pack,,Tạo kiện
+package,filter_by,package.filter_by,,Tìm theo
+package,pack_code,package.pack_code,,Mã kiện...
+package,tracking_code,package.tracking_code,,Mã vận đơn...
+package,package_empty,package.package_empty,,Danh sách kiện trống
+package,order_code,package.order_code,,Mã đơn hàng
+package,customer_code,package.customer_code,,Khách hàng/ Mã khách
+package,refresh_filter,package.refresh_filter,,Làm mới bộ lọc
+package,search,package.search,,TÌM KIẾM
+delivery_request,code,delivery_request.code,,Mã phiếu
+delivery_request,customer,delivery_request.customer,,Thông tin khách hàng
+delivery_request,created_at,delivery_request.created_at,,Ngày tạo
+delivery_request,status,delivery_request.status,,Trạng thái
+delivery_request,address,delivery_request.address,,Địa chỉ
+delivery_request,package_created_at,delivery_request.package_created_at,,Ngày tạo
+delivery_request,package_volume,delivery_request.package_volume,,Thể tích
+delivery_request,package_weight,delivery_request.package_weight,,Cân nặng
+delivery_request,title,delivery_request.title,,Danh sách yêu cầu giao
+delivery_request,not_found,delivery_request.not_found,,Không tìm thấy phiếu giao phù hợp
+delivery_request,menu,delivery_request.menu,,Yêu cầu giao
+delivery_request,not_found_package,delivery_request.not_found_package,,Không tìm thấy kiện phù hợp
+delivery,request,delivery.request,Request,Yêu cầu giao
+delivery,created_at,delivery.created_at,Created at,Ngày tạo
+delivery,total_weight,delivery.total_weight,Total weight,Tổng cân nặng
+delivery,delivery_package,delivery.delivery_package,Package List,Danh sách kiện
+delivery,log,delivery.log,Log,Log
+delivery,address,delivery.address,Address,Địa chỉ giao hàng
+delivery,cod_amount,delivery.cod_amount,Cod amount,Tiền COD
+delivery,total,delivery.total,Total,Tổng tiền
+delivery,delivery_title,delivery.delivery_title,Delivery detail,Chi tiết Yêu cầu giao
+delivery,delivery_list,delivery.delivery_list,Deliveries,Danh sách yêu cầu
+delivery,empty_package,delivery.empty_package,Empty package,Không có dữ liệu
+delivery,order_code,delivery.order_code,Order code,Mã đơn hàng
+delivery,package_code,delivery.package_code,Package code,Mã kiện
+delivery,take_delivery,delivery.take_delivery,Take delivery,Yêu cầu giao
+delivery,weight,delivery.weight,Weight,Cân nặng
+delivery,volume,delivery.volume,Volume,Thể tích
+delivery,createdAt,delivery.createdAt,Created at,Ngày tạo
+log_product,purchasedQuantity,log_product.purchasedQuantity,,<strong>{{name}}</strong> đã cập nhật số lượng mua từ <strong>{{oldValue}}</strong> thành <strong>{{newValue}}</strong>
+log_product,receivedQuantity,log_product.receivedQuantity,,<strong>{{name}}</strong> đã cập nhật số lượng nhận từ <strong>{{oldValue}}</strong> thành <strong>{{newValue}}</strong>
+log_product,actualPrice,log_product.actualPrice,,<strong>{{name}}</strong> đã cập nhật giá sản phẩm từ <strong>{{oldValue}}¥</strong> thành <strong>{{newValue}}¥</strong>
+log_product,staffRemark,log_product.staffRemark,,<strong>{{name}}</strong> đã cập nhật ghi chú của nhân viên từ <strong>{{oldValue}}</strong> thành <strong>{{newValue}}</strong>
+log_product,remark,log_product.remark,,<strong>{{name}}</strong> đã cập nhật ghi chú của khách hàng từ <strong>{{oldValue}}</strong> thành <strong>{{newValue}}</strong>
+log_product,update_history,log_product.update_history,,Lịch sử cập nhật

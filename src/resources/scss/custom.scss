@@ -1,0 +1,308 @@
+html {
+  display: flex;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100%;
+  width: 100%;
+}
+
+.width-100-percent {
+  width: 100%;
+}
+
+.height-100-percent {
+  height: 100%;
+}
+
+.align-self-end {
+  align-self: flex-end;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#root, #app-main, .main-body {
+  //display: flex;
+  min-height: 100%;
+  width: 100%;
+}
+
+.splash-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-start {
+  align-items: start;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.icon-error-input {
+  position: absolute;
+  left: -17px;
+  top: 6px;
+}
+
+.break-word {
+  word-break: break-word;
+}
+
+.whitespace-pre-wrap {
+  white-space: pre-wrap;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.vertical-radio {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+}
+
+.checkbox-group {
+  &.vertical {
+    .ant-checkbox-wrapper {
+      display: block;
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.box-checkbox-custom {
+  .ant-checkbox-wrapper {
+    display: block;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.line-height-1 {
+  line-height: 1;
+}
+
+.order-row-fixed {
+  bottom: 0;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background: #fff;
+}
+
+.white-space-pre-wrap {
+  white-space: pre-wrap;
+}
+
+.box-chat-wrapper {
+  display: flex;
+  >.ant-spin-container {
+    width: 100%;
+  }
+}
+
+.camera-dropzone {
+  display: inline-block;
+  width: 38px !important;
+  height: 32px !important;
+  position: absolute;
+  top: 0;
+  z-index: 9;
+  >div {
+    border: none !important;
+    width: 38px !important;
+    height: 32px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.chat-attachments-wrapper {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.chat-attachments-item {
+  display: inline-flex;
+  width: 60px;
+  height: 60px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  img {
+    width: 100%
+  }
+}
+
+.btn-send-chat {
+  display: inline-flex;
+  background: #1890ff;
+  height: 31px;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.modal-preview-image {
+  .ant-modal-close-x {
+    width: 26px;
+    height: 30px;
+    line-height: 30px;
+  }
+}
+
+.order-list {
+  padding: 0 25px;
+  &--header {
+
+    padding: 16px 0;
+  }
+  &--search {
+    margin: 16px 0;
+    padding: 10px 0;
+  }
+  &--item {
+    margin: 16px 0 0 0;
+    padding: 16px;
+    cursor: pointer;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+  }
+  &--footer {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    cursor: pointer;
+  }
+}
+
+.upload-list-inline .ant-upload-list-item {
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+  .ant-upload-list-item-name {
+    display: none;
+  }
+  .ant-upload-list-item-thumbnail {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.upload-list-inline .ant-upload-animate-enter {
+  animation-name: uploadAnimateInlineIn;
+}
+.upload-list-inline .ant-upload-animate-leave {
+  animation-name: uploadAnimateInlineOut;
+}
+
+
+.comment-input {
+  padding-right: 25px;
+  border: none;
+}
+
+.comment-button {
+}
+
+.comment {
+  background-color: white;
+  position: relative;
+  .upload-list-inline {
+   /* position: absolute;
+    top: 100%;
+    left: -4px;
+    z-index: 1;
+    background-color: transparent;
+    padding: 3px;*/
+    &.ant-upload-list-item {
+      background-color: white;
+    }
+  }
+}
+
+.upload-icon {
+  height: auto;
+  width: auto;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  z-index: 10;
+}
+
+.expand-hidden .ant-table-row-expand-icon-cell span {
+  display: none;
+  pointer-events: none;
+}
+
+
+@import "./helpers/mixins";
+
+@import "./helpers/variables";
+
+@import "./module/common";
+
+@import "./module/button";
+
+@import "./module/table";
+
+@import "./module/sidebar";
+
+@import "./module/form";
+
+@import "./module/boxchat";
+
+@import "./module/popup";
+
+@import "./layout/layout-header";
+
+@import "./layout/layout-nav";
+
+@import "./layout/layout-order";
+
+@import "./layout/layout_carts";
+
+@import "./layout/layout-orderdetail";
+
+@import "./layout/layout-listdelivery";
+
+@import "./layout/layout-deliveryrequests";
+

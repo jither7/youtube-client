@@ -1,0 +1,26 @@
+.boxservices{
+	&__item{
+		padding-right: 10px;
+		&:before{
+			content: "";
+			position: absolute;
+			width: 1px;
+			height: 12px;
+			background-color: $bg-color-gray2;
+			right: 0;
+			top: 2px;
+		}
+		&:first-child{
+			padding-left: 0;
+		}
+		&:last-child{
+			&:before{
+				height: 0;
+			}
+		}
+	}
+	&__lbl{
+		width: 70px;
+		padding-top: 1px;
+	}
+}
